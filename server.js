@@ -9,14 +9,14 @@ const { format } = require('path');
 const  {userJoin,getCurrentUser, getRoomUsers, userLeave}=require('./utils/users');
 const server=http.createServer(app);
 const io=socketio(server);
-const mongoose=require("mongoose");
+
 const bodyParser=require("body-parser");
 const { stringify } = require('querystring');
 const { stderr } = require('process');
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.use(express.static(path.join(__dirname,'public')));
-mongoose.connect("mongodb://localhost:27017/login",{useNewUrlParser:true});
+
 const admin = 'admin';
 
 
@@ -28,13 +28,8 @@ const admin = 'admin';
 
 
 
-var loginSchema=new mongoose.Schema({
-username:String,
-email:String,
-password:String,
-});
 
-const user=mongoose.model("user",loginSchema);
+
 
 
 
