@@ -1,0 +1,184 @@
+<%- include("Header")-%>
+<div class="vishal" style="background-color: aquamarine;">
+
+    <h1 class="h1">PostgreSQL Tutorial</h1>
+    <img src="https://static.javatpoint.com/postgre/images/postgresql-tutorial.png" alt="PostgreSQL tutorial" style="float:right;padding:15px" />
+    <p>PostgreSQL is a popular <strong>relational database management system (RDBMS)</strong>. Our PostgreSQL tutorial provides basic and advanced concepts of PostgreSQL. In this tutorial, we are going to learn all the topics of PostgreSQL language, such as <strong>create a database, drop a database, select database, select table, update a record, create a table, delete record, drop table, triggers, functions, insert the record, procedures, cursors,</strong> etc.</p>
+    <p>We are also going to provide PostgreSQL interview questions and quizzes to help you better understand the PostgreSQL language. This tutorial will help us to understand all the primary features of PostgreSQL, also provides a knowledge on how to use PostgreSQL.</p>
+    <h2 class="h2">What is PostgreSQL?</h2>
+    <p>PostgreSQL is an <strong>ORDBMS</strong> [<strong>Open-Source Object-Relational Database Management System</strong>]. It is used to store data securely; supporting best practices, and allow recovering them when the request is processed.</p>
+    <ul class="points">
+    <li>PostgreSQL is initially introduced <strong>on 8th July 1996</strong> at the <strong>University of California</strong>.</li>
+    <li>It is the first DBMS, which perform <strong>MVCC</strong> [<strong>Multi-Version Concurrency Control</strong>] feature, even before Oracle. The multi-version concurrency control attribute is known as <strong>snapshot</strong> isolation in Oracle.</li>
+    <li>It is written in <strong>C</strong> programming language.</li>
+    <li>PostgreSQL is <strong>cross-platform</strong> and runs on various operating systems such as <strong>Microsoft</strong> <strong>Windows, UNIX, FreeBSD, Mac OS X, Solaris, HP-UX, LINUX</strong>, and so on.</li>
+    <li>The PostgreSQL is the existing database for <strong>the macOS</strong> server.</li>
+    <li>PostgreSQL is also pronounced <strong>as Post-gress-Q-L</strong>, which is developed by the <strong>PostgreSQL Global Development Group</strong> (a worldwide team of volunteers), any organization or other private entity does not control it.</li>
+    <li>PostgreSQL will offer us the facility to add custom functions with the help of various programming languages such as <strong>Java, C, and C++,</strong> etc.</li>
+    <li>In this, we can describe our <strong>functional languages, index types and data types</strong>, and we can also create a <strong>custom plugin</strong> to increase the reliability of our needs.</li>
+    <li>Its source code is accessible under <strong>PostgreSQL license;</strong> thus, we can use it freely, change and allocate PostgreSQL in any form.</li>
+    <li>The PostgreSQL follow the <strong>transaction</strong> along with the <strong>ACID (Atomicity, Consistency, Isolation, and Durability)</strong> properties.</li>
+    <li>The primary objective of PostgreSQL is to handle a variety of jobs from single technologies to web service or the data warehouse with several parallel users.</li>
+    </ul>
+    <h2 class="h2">History of PostgreSQL</h2>
+    <p>PostgreSQL was developed by <strong>the PostgreSQL Global Development Group,</strong> which is led by a computer science professor named <strong>Michael Stonebraker</strong> at <strong>the University of California, Berkeley [UCB]</strong>. The professor's stonebreaker started in <strong>1986</strong> as a follow-up project and a post-Ingres project to overcome the problems of the existing database system.</p>
+    <p>Initially, it was called as <strong>Postgres,</strong> but <strong>in 1996</strong>, the project was renamed to <strong>PostgreSQL</strong>. Then again, <strong>in 2007</strong>, they did some analysis, and the development team decided to preserve the name as <strong>PostgreSQL</strong>. And now, it is the most innovative open-source database available in the market.</p>
+    <img src="https://static.javatpoint.com/postgre/images/postgresql-history.png" alt="PostgreSQL tutorial" />
+    <table class="alt">
+    <tr>
+    <th>Years</th>
+    <th>Description</th>
+    </tr>
+    <tr>
+    <td><strong>1977-1985</strong>: In these particular years, the <strong>INGRES</strong> project is developed.</td>
+    <td><ul class="points">
+    <li>The <strong>Ingres Company</strong> developed in 1980 and 1994: the computer Associates acquires it.</li>
+    <li>The Ingres project is a proof-of-concept for relational databases. </li>
+    </ul></td>
+    </tr>
+    <tr>
+    <td><strong>1986-1994: POSTGRES</strong></td>
+    <td><ul class="points">
+    <li>In INGRES, upgrading the features is essential for object-orientation and the query language <strong>Quel</strong>.</li>
+    <li>The codebase of INGRES was not used as a basis for POSTGRES.</li>
+    <li>After that, it is commercialized as Illustrate, which is acquired by <strong>Informix and IBM</strong>.</li>
+    </ul></td>
+    </tr>
+    <tr>
+    <td><strong>1994-1995: Postgres95</strong></td>
+    <td><ul class="points">
+    <li>In 1994, support for SQL was added.</li>
+    <li>In 1995, they released as <strong>Postgres95</strong>.</li>
+    <li>In 1996, they re-released as <strong>PostgreSQL 6.0</strong>.</li>
+    <li>The Formation of the <strong>PostgreSQL Global Development Team</strong>.</li>
+    </ul></td>
+    </tr>
+    </table>
+    <h4 class="n">Note: In 1997, the first PostgreSQL release their designed version 6.0. And later on, the developers throughout the world will continue working on the software as the PostgreSQL Global Development Group. The development will continue creating the releases which are accessible for both open-source software and PostgreSQL License.</h4>
+    <hr />
+    <h2 class="h2 center textshadow">PostgreSQL Index</h2>
+    <hr />
+    <div class="responsivediv">
+    <div class="col-3">
+    <p><strong>PostgreSQL Tutorial</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-tutorial">Introduction to SQL</a></li>
+    <li><a href="postgresql-history">PostgreSQL History</a></li>
+    <li><a href="postgresql-features">PostgreSQL Features</a></li>
+    <li><a href="postgresql-syntax">PostgreSQL Syntax</a></li>
+    <li><a href="postgresql-datatypes">PostgreSQL Datatypes</a></li>
+    <li><a href="install-postgresql">Install PostgreSQL</a></li>
+    </ul>
+    <p><strong>PostgreSQL Database</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-create-database">PostgreSQL Create DB</a></li>
+    <li><a href="postgresql-drop-database">PostgreSQL Drop DB</a></li>
+    </ul>
+    <p><strong>PostgreSQL Table</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-create-table">PostgreSQL Create Table</a></li>
+    <li><a href="postgresql-drop-table">PostgreSQL Drop Table</a></li>
+    </ul>
+    <p><strong>PostgreSQL Schema</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-schema">PostgreSQL Schema</a></li>
+    </ul>
+    <p><strong>PostgreSQL Queries</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-insert">PostgreSQL Insert</a></li>
+    <li><a href="postgresql-select">PostgreSQL Select</a></li>
+    <li><a href="postgresql-update">PostgreSQL Update</a></li>
+    <li><a href="postgresql-delete">PostgreSQL Delete</a></li>
+    </ul>
+    </div>
+    <div class="col-3">
+    <p><strong>PostgreSQL Clause</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-where-clause">PostgreSQL Where</a></li>
+    <li><a href="postgresql-order-by-clause">PostgreSQL Order By</a></li>
+    <li><a href="postgresql-group-by-clause">PostgreSQL Group By</a></li>
+    <li><a href="postgresql-having-clause">PostgreSQL Having</a></li>
+    </ul>
+    <p><strong>PostgreSQL Conditions</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-condition">PostgreSQL Condition</a></li>
+    <li><a href="postgresql-and-condition">PostgreSQL And</a></li>
+    <li><a href="postgresql-or-condition">PostgreSQL Or</a></li>
+    <li><a href="postgresql-and-or-condition">PostgreSQL And & Or</a></li>
+    <li><a href="postgresql-not-condition">PostgreSQL Not</a></li>
+    <li><a href="postgresql-like-condition">PostgreSQL Like</a></li>
+    <li><a href="postgresql-in-condition">PostgreSQL In</a></li>
+    <li><a href="postgresql-not-in-condition">PostgreSQL Not In</a></li>
+    <li><a href="postgresql-between-condition">PostgreSQL Between</a></li>
+    </ul>
+    <p><strong>PostgreSQL Views</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-view">PostgreSQL View</a></li>
+    </ul>
+    </div>
+    <div class="col-3">
+    <p><strong>PostgreSQL Join</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-join">PostgreSQL Inner Join</a></li>
+    <li><a href="postgresql-left-join">PostgreSQL Left Join</a></li>
+    <li><a href="postgresql-right-join">PostgreSQL Right Join</a></li>
+    <li><a href="postgresql-full-join">PostgreSQL Full Join</a></li>
+    <li><a href="postgresql-cross-join">PostgreSQL Cross Join</a></li>
+    </ul>
+    <p><strong>PostgreSQL Advance</strong></p>
+    <ul class="points">
+    <li><a href="postgresql-functions">PostgreSQL Functions</a></li>
+    <li><a href="postgresql-trigger">PostgreSQL Trigger</a></li>
+    <li><a href="postgresql-alias">PostgreSQL Alias</a></li>
+    <li><a href="postgresql-indexes">PostgreSQL Indexes</a></li>
+    <li><a href="postgresql-date-time">PostgreSQL Date & Time</a></li>
+    </ul>
+    <p><strong>Interview Questions</strong></p>
+    <ul class="points">
+    <li><a href="sql-interview-questions">SQL Interview</a></li>
+    <li><a href="pl-sql-interview-questions">PL/SQL Interview</a></li>
+    </ul>
+    <p><strong>Quiz</strong></p>
+    <ul class="points">
+    <li><a href="sql-quiz">SQL Quiz</a></li>
+    </ul>
+    </div>
+    </div>
+    <hr />
+    <h2 class="h2">Prerequisite</h2>
+    <p>The requirement to learn PostgreSQL is knowledge of the database, mainly the RDBMS and MySQL. It is database software having different settings and procedures. </p>
+    <h2 class="h2">Audience</h2>
+    <p>PostgreSQL tutorial provides basic and advanced ideas of SQL. Our PostgreSQL tutorial is designed for beginners and professionals.</p>
+    <h2 class="h2">Problem</h2>
+    <p>We assure you that you will not find any difficulty while learning our PostgreSQL tutorial. But if there is any mistake in this tutorial, kindly post the problem or error in the contact form so that we can improve it.</p>
+    <hr />
+    <div class="nexttopicdiv">
+    <span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="postgresql-features">PostgreSQL Features</a></span>
+    </div>
+    
+    <br /><br />
+    <div id="bottomnext">
+    <a style="float:right" class="next" href="postgresql-features">next &rarr;</a>
+    </div>
+    <br /><br />
+    </td></tr>
+    </table>
+    </div>
+    <hr class="hrhomebox" />
+    <div><img class="lazyload" data-src="https://static.javatpoint.com/images/youtube-32.png" style="vertical-align:middle;" alt="Youtube" />
+    <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank"> Join Now</a></span>
+    </div>
+    <hr class="hrhomebox" />
+    <h3 class="h3">Feedback</h3>
+    <ul class="points">
+    <li>Send your Feedback to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b5d3d0d0d1d7d4d6def5dfd4c3d4c1c5dadcdbc19bd6dad8">[email&#160;protected]</a></li>
+    </ul>
+    <hr class="hrhomebox" />
+
+
+
+
+
+    
+</div>
+<%- include("Footer")-%>

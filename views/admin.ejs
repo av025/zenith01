@@ -1,0 +1,11 @@
+<%- include("Header")-%>
+
+<% for( var i = 0; i < un.length; i++){ %>
+    <div style="text-align:center;">
+        <h2> </h2>
+        <a  href="/chat.html?username=Mentor&room=<%= un[i] %>" ><%= i+1 %> . <%= un[i] %> </a>
+        <br>
+        </div>
+    <% } %>
+
+<%- include("Footer")-%>
